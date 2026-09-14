@@ -4,7 +4,7 @@ public class DiagonalTraversal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+System.out.println(0/1);
 		int arr[][]= {{1,2,3},{4,5,6},{7,8,9}};
 		int nod=arr.length+arr[0].length-1;
 		int cnt=0;
