@@ -1,9 +1,22 @@
 package Lec20;
 
+import java.util.ArrayList;
+
 public class RatChasesChees {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		for(int i=0;i<3;i++)
+		{
+			System.out.println(i);
+		}
+		ArrayList<Integer>list=new ArrayList();
+		list.add(1);
+		list.add(2);
+		list.set(0, 3);
+		System.out.println(list);
+		
 		char arr[][] = { { 'O', 'O', 'O', 'O' }, { 'O', 'O', 'O', 'X' }, { 'X', 'O', 'X', 'O' }, { 'X', 'O', 'O', 'X' },
 				{ 'X', 'X', 'O', 'O' } };
 
